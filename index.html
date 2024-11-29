@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta charset="UTF-8">
-	<title>Teagan's Portfolio</title>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Teagan's Portfolio</title>
     <link href="styles.css" rel="stylesheet" type="text/css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    </head>
-	<body>
-        <header>
+</head>
+<body>
+    <header>
         <h1>Teagan's Portfolio</h1>
             <nav class="navbar">
                 <div id="nav-container">
@@ -22,54 +22,109 @@
                         <li class="nav-item">
                             <a class="navbar-brand nav-link" href ="https://github.com/teagz17/PROG1700-Algorithms">PROG1700 Repository</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="navbar-brand nav-link" href ="https://github.com/teagz17/PROG1400">PROG1400 Repository</a>
+                        </li>
                     </ul>
                 </div>
             </nav>
-        </header>
-        <main>
-            <div class="container-main" id="contents">
-                <h1>Table of Contents</h1>
+    </header>
 
+    <main>
+        <div class="main-container" id="contents">
+            <h1>Table of Contents</h1>
+            <ul class="content-links">
+            <li>
+                <a class="main-link" href="#welcome">- About Me</a>
+            </li>
+            <li>
+                <a class="main-link" href="#resume">- IT Industry Experience</a>
+            </li>
+            <li>
+                <a class="main-link" href="#learning-narr">- Learning Narrative and Certifications</a>
+            </li>
+            <li>
+                <a class="main-link" href="#my-links">- Some of my work</a>
+            </li>
+            </ul>
+        </div>
+        <div class="grid-container" id="grid1">
+            <div class="grid-item" id="welcome">
+                <h1>About me</h1>
+                <p>
+                    Hi! Welcome to my portfolio page. My name is Teagan and I am 26 years old. I 
+                    am from Inverness, Nova Scotia, and I am currently in my second year of the IT 
+                    Generalist program at NSCC. After graduating in June, my plan is to gain experience
+                    in the IT industry, while also focusing on improving my skills surrounding networkingm
+                    and learning more about cybersecurity.
+                </p>
             </div>
-            <div class="grid-main">
-                <div class="container-main" id="welcome">
-                    <h1>Welcome to my portfolio!</h1>
-                    <p>Hi! My name is Teagan Stewart.</p>
-                </div>
-                <div class="container-main" id="career-goals">
-                    <h1>My career goals</h1>
-                </div>
+            <div class="grid-item" id="picture">
+                <p>pictures will go here</p>
             </div>
-            <div class="container-main" id="webd">
-                <h1>WEBD1000 Assignments</h1>
+        </div>
+        <div class="main-container" id="resume">
+            <h1>IT Industry Experience</h1>
+            <h2>IT Intern</h2>
+            <p>Cabot Cape Breton, Inverness, NS</p>
+            <ul>
+                <li>Provided technical assistance to employees</li>
+                <li>Built and configured internet networks</li>
+                <li>Configured laptops and work emails for new employees</li>
+                <li>Configured Agilysys debit machines</li>
+                <li>Managed company domain accounts and devices in Active Directory</li>
+                <li>Ran and terminated cables for the Trackman system</li>
+            </ul>
+        </div>
+        <div class="grid-container" id="grid2">
+            <div class="grid-item" id="learning-narr">
+                <h1>Learning Narrative</h1>
+            </div>
+            <div class="grid-item" id="certs">
+                <h1>Certifications</h1>
+                <p>Coming soon!</p>
+            </div>
+        </div>
+        <div class="main-container" id="my-links">
+            <h1>Some of my work:</h1>
+            <h2>WEBD1000 Assignments and Exercises</h2>
                 <section id="Module-1">
                     <h1>Module 1</h1>
                     <a class="main-link" href ="https://teagz17.github.io/WEBD1000/Module_1/w0302952_WEBD1000_First_Web_Page.html">Basic Responsive Webpage</a>
                     <p>A simple responsive webpage showing a table with different network diagramming symbols.</p>
-                </section>
+                    </section>
                 <section id="Module-2">
                     <h1>Module 2</h1>
                     <a class="main-link" href ="https://teagz17.github.io/WEBD1000/Module_2_CSS/Blackjack_CSS_exercise.html">CSS Exercise</a>
                     <p>The homepage for "Blackjack Tequila", a fake (for now) tequila company. Designed using CSS.</p>
                 </section>
-                <section id="RideShareSite">
-                    <h1>Ride Share Site</h1>
-                    <a class="main-link" href="https://teagz17.github.io/WEBD1000/RideSharingSite">Homepage</a>
-                    <p>The homepage for the Ride Share website we're working on.</p>
+                <section id="Module-3">
+                    <h1>Module 3</h1>
+                    <a class="main-link" href="https://teagz17.github.io/WEBD1000/Module_3_Skill_Development/">HTML and CSS Skills Development Exercise</a>
+                    <p>A webpage with different examples of using div containers, and some of the ways you can style them.</p>
                 </section>
                 <section id="Personal-Portfolio">
                     <h1>Timed Final</h1>
                     <a class="main-link" href="https://teagz17.github.io/WEBD1000/Personal_Portfolio/">Personal Portfolio Page</a>
                     <p>A personal portfolio webpage, our final WEBD1000 assignment.</p>
                 </section>
-                <h1>Development/Design Exercises</h1>
-                <section id="Module-3">
-                    <h1>Module 3</h1>
-                    <a class="main-link" href="https://teagz17.github.io/WEBD1000/Module_3_Skill_Development/">HTML and CSS Skills Development Exercise</a>
-                    <p>A webpage with different examples of using div containers, and some of the ways you can style them.</p>
-                </section>
-            </div>
-            </section>
-        </main>
+        </div>
+    </main>
+    <div class="separator"></div>
+    <footer>
+        <div class="footer">
+            <ul class="footer-list">
+                <li>Teagan Stewart</li>
+                <li>|</li>
+                <li>902-XXX-XXXX</li>
+                <li>|</li>
+                <li>teaganstewart@email.com</li>
+                <li>|</li>
+                <li>
+                    <a href="https://github.com/teagz17">Github Profile</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
     </body>
 </html>
